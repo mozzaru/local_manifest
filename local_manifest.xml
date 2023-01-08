@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--Remote-->
+ <remote name="SonicBSV" fetch="https://github.com/SonicBSV" />
+ <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ 
+ <!--Trees-->
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="Evolution-X-tiramisu" />
+ <project path="vendor/xiaomi/markw" name="proprietary_vendor_xiaomi" remote="SonicBSV" revision="T" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="SonicBSV" revision="T" />
+
+ <!-- Proton -->
+ <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+</manifest>
