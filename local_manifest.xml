@@ -13,9 +13,9 @@
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="Evolution-X-tiramisu" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="SonicBSV" revision="T" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="SonicBSV" revision="T" />
- <project path="external_faceunlock" remote="pixelplusui" revision="tiramisu" />
-
+ 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="external_faceunlock" remote="pixelplusui" revision="tiramisu" />
 </manifest>
