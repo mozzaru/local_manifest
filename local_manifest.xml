@@ -7,7 +7,7 @@
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name"pixelplusui" fetch="https://github.com/PixelPlusUI" />
+ <remote name="pixelplusui" fetch="https://github.com/PixelPlusUI" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="Evolution-X-tiramisu" />
