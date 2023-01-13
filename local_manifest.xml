@@ -5,9 +5,11 @@
  <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- 
+ <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+
  <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="Evolution-X-tiramisu" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="Evolution-tiramisu" />
  <project path="vendor/xiaomi/markw" name="android_vendor_xiaomi_markw" remote="Mozzaru" revision="T" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="SonicBSV" revision="T" />
  
