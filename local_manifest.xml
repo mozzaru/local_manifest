@@ -14,12 +14,12 @@
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
 
+ <!--FMRadio-->
  <remove-project name="packages_apps_FMRadio" />
  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
  
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-android" name="android-clang" remote="gitlab-me" revision="master" clone-depth="1" />
-
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
