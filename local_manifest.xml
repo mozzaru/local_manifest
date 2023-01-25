@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!--Remote-->
  <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="PixysOS" fetch="https://github.com/PixysOS" />
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+ 
+ <!--frameworks_base-->
+ <remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="frameworks_base" remote="Mozzaru" revision="thirteen" />
+ 
+  <!-- Frameworks_native -->
+ <remove-project name="frameworks_native" />
+ <project path="frameworks/native" name="frameworks_native" remote="Mozzaru" revision="thirteen" />
+ 
+ <!--packages_apps_Settings-->
+ <remove-project name="packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="packages_apps_Settings" remote="Mozzaru" revision="thirteen" />
+
+ <!--vendor_pixel-framework-->
+ <remove-project name="vendor_pixel-framework" />
+ <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="Mozzaru" revision="thirteen" />
+ 
+ <!-- Build Repos -->
+ <remove-project name="build" />
+  <project path="build/make" name="build" groups="pdk" remote="Mozzaru" revision="thirteen" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+ 
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evo-13" />
@@ -17,6 +44,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
 
  <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
