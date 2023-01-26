@@ -6,6 +6,7 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="iusmac" fetch="https://github.com/iusmac" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evo-13" />
@@ -14,6 +15,9 @@
 
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
+
+ <!--FMRadio-->
+ <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
