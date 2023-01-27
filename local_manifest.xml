@@ -6,8 +6,7 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="DerpFest-AOSP" fetch="https://github.com/DerpFest-AOSP" />
  <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
- <remote name="track" fetch="https://github.com/CodeChas3r"/>
-
+ <remote name="track" fetch="https://github.com/CodeChas3r" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="derpfest-13" />
