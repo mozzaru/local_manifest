@@ -10,6 +10,9 @@
   <!-- gitlab-me -->
  <remote name="gitlab-me"
 	 fetch="https://gitlab.com/GhostMaster69-dev" />
+  <!-- github-silicon -->
+ <remote name="github-silicon"
+	 fetch="https://github.com/AOSP-Silicon" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evox-13" />
@@ -19,6 +22,14 @@
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
 
+<!-- Frameworks -->
+ <remove-project name="frameworks_base" />
+ <remove-project name="frameworks_native" />
+ <remove-project name="frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="evolution-x_frameworks_opt_telephony" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+ <project path="frameworks/base" name="evolution-x_frameworks_base" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+ <project path="frameworks/native" name="evolution-x_frameworks_native" remote="github-silicon" revision="tiramisu" clone-depth="1" />
+ 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
