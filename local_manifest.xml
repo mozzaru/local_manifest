@@ -19,6 +19,18 @@
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
 
+<!-- Build Repos -->
+ <remove-project name="build" />
+  <project path="build/make" name="evo_build" groups="pdk" remote="Mozzaru" revision="tiramisu" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
 
