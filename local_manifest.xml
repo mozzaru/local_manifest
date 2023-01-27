@@ -6,7 +6,8 @@
  <remote name="PixysOS" fetch="https://github.com/PixysOS" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
-
+ <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
+ 
  <!-- Build Repos -->
  <remove-project name="build" />
   <project path="build/make" name="pixys_build" groups="pdk" remote="Mozzaru" revision="thirteen" >
