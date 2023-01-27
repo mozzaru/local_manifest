@@ -14,12 +14,7 @@
  <remote name="github-silicon"
 	 fetch="https://github.com/AOSP-Silicon" />
 
- <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evox-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
-
-<!-- Build Repos -->
+ <!-- Build Repos -->
  <remove-project name="build" />
   <project path="build/make" name="evo_build" groups="pdk" remote="Mozzaru" revision="tiramisu" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -30,6 +25,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
+ <!--Trees-->
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evox-13" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
+
 
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
