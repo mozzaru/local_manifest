@@ -24,8 +24,10 @@
    <project path="packages/apps/Settings" name="CodeChas3r/packages_apps_Settings" remote="hub" revision="13"/>
    <project path="packages/apps/DerpSpace" name="CodeChas3r/packages_apps_DerpSpace" remote="hub" revision="13"/>
 
-  
- 
+   <remove-project name="platform/frameworks/opt/net/ims"/>
+   <remove-project name="frameworks_opt_telephony"/>
+   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Mozzaru" revision="13.0" clone-depth="1"/>
+   <project path="frameworks/opt/telephony" name="Lafactorial/android_frameworks_opt_telephony" remote="hub" revision="13.0" clone-depth="1"/>
    
 <!-- Build -->
    <remove-project name="build" />
