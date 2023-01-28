@@ -8,7 +8,8 @@
    <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
    <remote name="track" fetch="https://github.com/CodeChas3r" />
    <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
-  
+   <remote name="hub" fetch="https://github.com" />
+   
   <!--Trees-->
    <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="derp-13" />
    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
