@@ -4,42 +4,24 @@
    <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
    <remote name="clang" fetch="https://gitlab.com/Amritorock" />
    <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-   <remote name="DerpFest-AOSP" fetch="https://github.com/DerpFest-AOSP" />
    <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
    <remote name="track" fetch="https://github.com/CodeChas3r" />
    <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
-   <remote name="hub" fetch="https://github.com" />
+   <remote name="rem" fetch="https://github.com" />
    
   <!--Trees-->
    <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="derp-13" />
    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
    <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
 
-   <remove-project name="hardware_qcom_wlan" />
-   <remove-project name="android_hardware_lineage_compat" />
-   <remove-project name="packages_apps_Settings" />
-   <remove-project name="packages_apps_DerpSpace" />
-   <project path="hardware/qcom-caf/wlan" name="Lafactorial/hardware_qcom_wlan" remote="hub" revision="13-caf" clone-depth="1"/>
-   <project path="hardware/lineage/compat" name="CodeChas3r/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1"/>
-   <project path="packages/apps/Settings" name="CodeChas3r/packages_apps_Settings" remote="hub" revision="13"/>
-   <project path="packages/apps/DerpSpace" name="CodeChas3r/packages_apps_DerpSpace" remote="hub" revision="13"/>
-
-   <remove-project name="platform/frameworks/opt/net/ims"/>
-   <remove-project name="frameworks_opt_telephony"/>
-   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Mozzaru" revision="13.0" clone-depth="1"/>
-   <project path="frameworks/opt/telephony" name="Lafactorial/android_frameworks_opt_telephony" remote="hub" revision="13.0" clone-depth="1"/>
-   
-<!-- Build -->
-   <remove-project name="build" />
-   <project path="build/make" name="derp_build" remote="Mozzaru" revision="13" clone-depth="1" />
-   <copyfile src="core/root.mk" dest="Makefile" />
-   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-   <linkfile src="core" dest="build/core" />
-   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-   <linkfile src="target" dest="build/target" />
-   <linkfile src="tools" dest="build/tools" />
-   </project>
+        <remove-project name="hardware_qcom_wlan" />
+        <remove-project name="android_hardware_lineage_compat" />
+        <remove-project name="packages_apps_Settings" />
+        <remove-project name="packages_apps_DerpSpace" />
+        <project path="hardware/qcom-caf/wlan" name="Lafactorial/hardware_qcom_wlan" remote="rem" revision="13-caf" clone-depth="1" />
+        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" clone-depth="1" />
+        <project path="packages/apps/Settings" name="Lafactorial/packages_apps_Settings" remote="rem" revision="13" />
+        <project path="packages/apps/DerpSpace" name="Lafactorial/packages_apps_DerpSpace" remote="rem" revision="13" />
 
   <!-- Clang toolchain -->
    <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
