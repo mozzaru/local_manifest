@@ -9,7 +9,8 @@
 
  <remote name="hub" fetch="https://github.com" />
  <remote name="track" fetch="https://github.com/CodeChas3r" />
-        
+ <remote name="Lafactorial" fetch="https://github.com/Lafactorial" />
+
  <!-- Extras -->
  <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="track" revision="thirteen" clone-depth="1"/>
