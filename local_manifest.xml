@@ -12,7 +12,8 @@
  <remote  name="me" fetch="https://github.com/kitw4y"/>
  <remote name="hub" fetch="https://github.com" />
  <remote name="track" fetch="https://github.com/CodeChas3r" />
-        
+ <remote name="rem" fetch="https://github.com/Lafactorial" />
+
  <remove-project name="android_hardware_lineage_compat" />
  <project path="hardware/lineage/compat" name="CodeChas3r/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1"/>
  <remove-project name="platform/hardware/google/pixel"/>
