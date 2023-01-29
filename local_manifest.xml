@@ -9,7 +9,8 @@
  <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
  <remote  name="me" fetch="https://github.com/kitw4y"/>
- 
+ <remote name="hub" fetch="https://github.com" />
+
  <remove-project name="android_hardware_lineage_compat" />
  <project path="hardware/lineage/compat" name="CodeChas3r/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1"/>
  <remove-project name="platform/hardware/google/pixel"/>
