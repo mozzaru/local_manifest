@@ -15,7 +15,7 @@
  <remote name="Lafactorial" fetch="https://github.com/Lafactorial" />
 
  <remove-project name="android_hardware_lineage_compat" />
- <project path="hardware/lineage/compat" name="CodeChas3r/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1"/>
+ <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="hub" revision="lineage-20.0" clone-depth="1"/>
  <remove-project name="platform/hardware/google/pixel"/>
  <project path="hardware/google/pixel" name="platform-hardware-google-pixel" remote="me" revision="android-13.0.0_r20"/>
 
