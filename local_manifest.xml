@@ -22,10 +22,11 @@
         <project path="packages/apps/DerpSpace" name="CodeChas3r/packages_apps_DerpSpace" remote="hub" revision="13"/>
 
         <remove-project name="platform/frameworks/opt/net/ims"/>
-        <project path="frameworks/opt/net/ims" name="Mozzaru/android_frameworks_opt_net_ims" remote="Mozzaru" revision="13.0" clone-depth="1"/>
-        <remove-project name="frameworks_opt_telephony" />
-        <project path="frameworks/opt/telephony" name="Mozzaru/android_frameworks_opt_telephony" remote="Mozzaru" revision="lineage-20.0" clone-depth="1"/>
-
+        <remove-project name="frameworks_opt_telephony"/>
+        <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Mozzaru" revision="13.0" clone-depth="1"/>
+        <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Mozzaru" revision="lineage-20.0" clone-depth="1"/>
+        
+ <!-- Build Repos -->
         <remove-project name="build" />
         <project path="build/make" name="derp_build" remote="track" revision="13" clone-depth="1" >
         <copyfile src="core/root.mk" dest="Makefile" />
