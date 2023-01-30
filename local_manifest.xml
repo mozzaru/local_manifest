@@ -7,6 +7,8 @@
  <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
 
+ <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
+ <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="crdroid-13" />
@@ -15,7 +17,7 @@
 
 
  <!-- Cosmic clang Toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="release/15.x" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
 
  <!-- Proton -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
