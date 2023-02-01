@@ -18,7 +18,6 @@
  <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
- <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
 
  <remove-project name="vendor_blaze" />
  <project path="vendor/blaze" name="vendor_blaze" remote="NRanjan-17" revision="13" />
