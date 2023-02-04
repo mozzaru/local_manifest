@@ -9,6 +9,7 @@
  <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
  <remote name="me-lab"
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
