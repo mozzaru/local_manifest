@@ -16,10 +16,6 @@
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
 
 
- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="Mozzaru" revision="los"/> 
- <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="LineageOS" revision="lineage-18.1"/>
-
-
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
 
