@@ -17,7 +17,7 @@
 
 
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Mozzaru" revision="arrow-13.0" />
-
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Mozzaru" revision="lineage-20.0" />
 
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
