@@ -19,18 +19,6 @@
  <remove-project name="vendor_pixys" />
  <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="thirteen" />
  
-  <!-- Build Repos -->
-  <remove-project name="build" />
-  <project path="build/make" name="build" groups="pdk" remote="NRanjan-17" revision="thirteen" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
  
