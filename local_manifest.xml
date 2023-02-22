@@ -17,7 +17,7 @@
 
  <!--vendor_pixys-->
  <remove-project name="vendor_pixys" />
- <project path="vendor/pixys" name="vendor_pixys" remote="NRanjan-17" revision="thirteen" />
+ <project path="vendor/pixys" name="vendor_pixys" remote="Mozzaru" revision="thirteen" />
  
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
