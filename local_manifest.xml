@@ -4,7 +4,7 @@
  <remote name="Mozzaru" 
         fetch="https://github.com/Mozzaru" />
  
- <remote name="me-lab" 
+ <remote name="anandhan07"
         fetch="https://gitlab.com/anandhan07" clone-depth="1" />
 
  <!--Trees-->
@@ -13,7 +13,7 @@
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="13" />
 
  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang" remote="me-lab" revision="clang-16.0.2" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang" remote="anandhan07" revision="clang-16.0.2" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="anandhan07" revision="clang-14.0.6" />
 
 </manifest>
