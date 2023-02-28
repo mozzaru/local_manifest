@@ -5,11 +5,13 @@
         fetch="https://github.com/Mozzaru" />
 
  <remote name="kdrag0n" 
-         fetch="https://github.com/kdrag0n" />
+        fetch="https://github.com/kdrag0n" />
 
- <remote name="anandhan07"
-        fetch="https://gitlab.com/anandhan07" clone-depth="1" />
+ <remote name="crdroid"         
+        fetch="https://gitlab.com/crdroidandroid" />
 
+ <remote name="ImSurajxD" 
+        fetch="https://gitlab.com/ImSurajxD" />
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="p404-13" />
@@ -22,9 +24,9 @@
  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Mozzaru" revision="lineage-20.0" />
 
 
- <!-- Proton -->
+ <!-- Clang -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang" remote="anandhan07" revision="clang-16.0.2" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="anandhan07" revision="clang-14.0.6" />
-
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
 </manifest>
+
