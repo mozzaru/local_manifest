@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
- <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <remote name="Mozzaru" 
+        fetch="https://github.com/Mozzaru" />
+
+ <remote name="kdrag0n" 
+        fetch="https://github.com/kdrag0n" />
+
+ <remote name="crdroid" 
+        fetch="https://gitlab.com/crdroidandroid" />
+
+ <remote name="gitlab-me" 
+        fetch="https://gitlab.com/GhostMaster69-dev" />
+
+ <remote name="ImSurajxD" 
+        fetch="https://gitlab.com/ImSurajxD" />
 
 
  <!--Trees-->
@@ -20,6 +29,4 @@
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
-
-
 </manifest>
