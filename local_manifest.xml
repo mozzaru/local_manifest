@@ -10,6 +10,10 @@
 
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
+ 
+ <remote name="github-me"
+	fetch="https://github.com/GhostMaster69-dev" />
+
 
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="arrow-13" />
@@ -21,4 +25,40 @@
  <project path="prebuilts/clang/host/linux-x86/clang-master" name="aosp-clang" remote="me-lab" revision="master" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 
+ <!-- build repo -->
+ <remove-project name="android_build" />
+ <project path="build/make" name="arrow_build" remote="github-me" revision="arrow-13.0" clone-depth="1" >
+ <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+ <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+ <linkfile src="core" dest="build/core" />
+ <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+ <linkfile src="target" dest="build/target" />
+ <linkfile src="tools" dest="build/tools" />
+ </project>
+ 
+ <!-- Bluetooth -->
+ <remove-project name="android_packages_modules_Bluetooth" />
+ <project path="packages/modules/Bluetooth" name="arrow_packages_modules_Bluetooth" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <!-- Framework Base -->
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base" name="arrow_frameworks_base" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <!-- Framework Native -->
+ <remove-project name="android_frameworks_native" />
+ <project path="frameworks/native" name="arrow_frameworks_native" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <!-- Framework Telephony (Opt) -->
+ <remove-project name="android_frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="arrow_frameworks_opt_telephony" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <!-- Settings -->
+ <remove-project name="android_packages_apps_Settings" />
+ <project path="packages/apps/Settings" name="arrow_packages_apps_Settings" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <remove-project name="platform/frameworks/libs/net" />
+ <project path="frameworks/libs/net" name="arrow_frameworks_libs_net" remote="github-me" revision="arrow-13.0" clone-depth="1" />
+
+ <remove-project name="android_packages_modules_Connectivity" />
+ <project path="packages/modules/Connectivity" name="arrow_packages_modules_Connectivity" remote="github-me" revision="arrow-13.0" clone-depth="1" />
 </manifest>
