@@ -11,21 +11,10 @@
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
 
- <remote name="me-hub"
-        fetch="https://github.com/anandhan07"
-        clone-depth="1" />
-
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="spark-13" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="13" />
-
- <!-- Remove Projects -->
- <remove-project name="device_qcom_sepolicy-legacy-um" />
- <remove-project name="hardware_spark_compat" />
-
- <!-- Sepolicy -->
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="me-hub" revision="spark-13.0" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
