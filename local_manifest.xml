@@ -20,7 +20,7 @@
  <!--Trees-->
  <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="13" />
+ <project path="kernel/xiaomi/markw" name="kernel_xiaomi_markw_new" remote="mozzaru" revision="13" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
