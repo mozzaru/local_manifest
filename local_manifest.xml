@@ -11,6 +11,9 @@
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
 
+ <remote name="ImSurajxD" 
+        fetch="https://gitlab.com/ImSurajxD" />
+
  <!--Trees-->
  <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="spark-13" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="thirteen" />
@@ -18,7 +21,6 @@
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-master" name="aosp-clang" remote="me-lab" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
-
+ <project path="prebuilts/Standalone" name="aosp-clang" remote="me-lab" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest> 
