@@ -11,6 +11,9 @@
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
 
+ <remote name="los" 
+        fetch="https://github.com/LineageOS" />
+
  <!--Trees-->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="mozzaru" revision="thirteen" />
@@ -21,4 +24,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-master" name="aosp-clang" remote="me-lab" revision="master" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 
+ <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+ <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" revision="main" remote="los" clone-depth="1" />
 </manifest> 
