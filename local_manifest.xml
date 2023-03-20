@@ -8,7 +8,7 @@
  <remote name="los" fetch="https://github.com/LineageOS" />
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
- <!--Tree-->
+ <!-- Trees -->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
  <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="mozzaru" revision="tigabelas" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
