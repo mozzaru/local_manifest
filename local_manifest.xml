@@ -22,7 +22,7 @@
  <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="thirteen" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="tigabelas" />
 
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/markw" name="kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
