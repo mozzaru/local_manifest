@@ -15,7 +15,7 @@
         fetch="https://gitlab.com/ImSurajxD" />
 
  <!--Trees-->
- <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="spark-13" />
+ <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="spark-t" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="thirteen" />
  <project path="kernel/xiaomi/markw" name="kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
 
