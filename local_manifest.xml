@@ -2,30 +2,16 @@
 <manifest>
 
  <!--Remote-->
- <remote name="mozzaru" 
-        fetch="https://github.com/mozzaru" />
- 
- <remote name="snnbyyds" 
-        fetch="https://gitlab.com/snnbyyds"
-        clone-depth="1" />
+ <remote name="mozzaru" fetch="https://github.com/mozzaru" />
+ <remote name="snnbyyds" fetch="https://gitlab.com/snnbyyds" clone-depth="1" />
+ <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+ <remote name="los" fetch="https://github.com/LineageOS" />
+ <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
- <remote name="kdrag0n" 
-        fetch="https://github.com/kdrag0n" />
-
- <remote name="los" 
-        fetch="https://github.com/LineageOS" />
-
- <remote name="ImSurajxD" 
-        fetch="https://gitlab.com/ImSurajxD" />
-
- <!-- Device Tree -->
- <project path="device/xiaomi/markw" name="device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
-
- <!-- Vendor -->
- <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="mozzaru" revision="tigabelas" />
-
- <!-- Kernel Tree -->
- <project path="kernel/xiaomi/markw" name="kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
+ <!--Tree-->
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="rice-13" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="mozzaru" revision="tigabelas" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
