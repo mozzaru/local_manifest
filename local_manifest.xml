@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Mozzaru" 
-        fetch="https://github.com/Mozzaru" />
+ <remote name="mozzaru" 
+        fetch="https://github.com/mozzaru" />
 
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
@@ -19,9 +19,9 @@
 
 
  <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="derpfest-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="Tes" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="derpfest-13" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="mozzaru" revision="thirteen" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
 
  <!-- Cosmic clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
