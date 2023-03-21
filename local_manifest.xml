@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Mozzaru" 
-        fetch="https://github.com/Mozzaru" />
+ <remote name="mozzaru" 
+        fetch="https://github.com/mozzaru" />
 
  <remote name="kdrag0n" 
         fetch="https://github.com/kdrag0n" />
 
- <remote name="crdroid"         
-        fetch="https://gitlab.com/crdroidandroid" />
+ <remote name="snnbyyds" 
+        fetch="https://gitlab.com/snnbyyds"
+        clone-depth="1" />
 
  <remote name="ImSurajxD" 
         fetch="https://gitlab.com/ImSurajxD" />
 
  <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="blaze-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="13" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="13" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="blaze-t" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="mozzaru" revision="13" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="Tes" />
 
 
  <!-- Clang -->
  <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="clang-r487747" remote="snnbyyds" revision="master" clone-depth="1" />
 </manifest>
