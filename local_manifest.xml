@@ -2,24 +2,22 @@
 <manifest>
 
  <!--Remote-->
- <remote name="mozzaru" fetch="https://github.com/mozzaru" />
- <remote name="snnbyyds" fetch="https://gitlab.com/snnbyyds" clone-depth="1" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="los" fetch="https://github.com/LineageOS" />
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+ <remote name="m" 
+         fetch="https://github.com" />
+
+ <remote name="ImSurajxD" 
+         fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Trees -->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="mozzaru" revision="ricedroid-thirteen" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="mozzaru" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="mozzaru" revision="Tex" />
+ <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="ricedroid-thirteen" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
 
  <!-- Clang -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
- <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="clang-r487747" remote="snnbyyds" revision="master" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
  <!-- Replacement -->
  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
- <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" revision="main" remote="los" clone-depth="1" />
+ <project path="external/chromium-webview/prebuilt/arm64" name="mozzaru/android_external_chromium-webview_prebuilt_arm64" revision="main" remote="m" clone-depth="1" />
 
 </manifest> 
