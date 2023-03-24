@@ -5,12 +5,8 @@
  <remote name="m" 
          fetch="https://github.com" />
 
- <remote name="ImSurajxD" 
-         fetch="https://gitlab.com/ImSurajxD" />
-
- <remote name="snnbyyds" 
-         fetch="https://gitlab.com/snnbyyds"
-         clone-depth="1" />
+ <remote name="lab" 
+         fetch="https://gitlab.com" />
 
  <!--<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />-->
  <!--<project path="external/chromium-webview/prebuilt/arm64" name="CatOS-Tiramisu/android_external_chromium-webview_prebuilt_arm64" revision="main" remote="m"clone-depthbh="1" />-->
@@ -19,6 +15,6 @@
  <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
  <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="clang-r487747" remote="snnbyyds" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-r487747" remote="lab" revision="master" clone-depth="1" />
 </manifest> 
