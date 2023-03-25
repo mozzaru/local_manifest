@@ -9,7 +9,7 @@
          fetch="https://gitlab.com" />
 
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="blaze-t" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="13" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tilubelas" />
  <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
