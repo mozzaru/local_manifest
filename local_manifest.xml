@@ -8,9 +8,6 @@
  <remote name="lab" 
          fetch="https://gitlab.com" />
 
- <remove-project name="android_device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="GhostMaster69-dev/android_device_qcom_sepolicy-legacy-um" remote="m" revision="thirteen" />
-
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="Tex" />
  <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
  <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
