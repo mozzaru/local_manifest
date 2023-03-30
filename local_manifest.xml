@@ -10,7 +10,7 @@
 
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="lose-13" />
  <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="thirteen-radio-default" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="kupu-kupu" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tass" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-r487747" remote="lab" revision="master" clone-depth="1" />
