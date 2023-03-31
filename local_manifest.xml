@@ -15,5 +15,5 @@
 
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
 
- <<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
