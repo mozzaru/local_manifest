@@ -8,8 +8,18 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="octa-t" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="13-fm-default" />
+ <remote name="LineageOS" 
+         fetch="https://github.com/LineageOS" />
+
+ <remote name="PixelExperience" 
+         fetch="https://github.com/PixelExperience" />
+
+
+ <remove-project name="android_hardware_qcom_wlan" />
+ <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PixelExperience" revision="thirteen" />
+
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="Tijuragan" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
