@@ -3,20 +3,17 @@
 
  <!--Remote-->
  <remote name="m" 
-         fetch="https://github.com" />
+         fetch="https://github.com/mozzaru" />
 
- <remote name="ImSurajxD" 
-         fetch="https://gitlab.com/ImSurajxD" />
-
- <remote name="snnbyyds" 
-         fetch="https://gitlab.com/snnbyyds"
-         clone-depth="1" />
+ <remote name="clang" 
+         fetch="https://gitlab.com/Amritorock" />
 
  
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="derpfest-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derpfest-13" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="clang-r487747" remote="snnbyyds" revision="master" clone-depth="1" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
+
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
+
+ <<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
