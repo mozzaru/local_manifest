@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
  <!--Remote-->
- <remote name="Mozzaru" 
-        fetch="https://github.com/Mozzaru" />
- 
- <remote name="me-lab"
-        fetch="https://gitlab.com/anandhan07"
-        clone-depth="1" />
+ <remote name="m" 
+         fetch="https://github.com/mozzaru" />
 
- <remote name="kdrag0n" 
-        fetch="https://github.com/kdrag0n" />
- 
- <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="arrow-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="13" />
+ <remote name="clang" 
+         fetch="https://gitlab.com/Amritorock" />
 
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-master" name="aosp-clang" remote="me-lab" revision="master" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
-</manifest>
+ <remote name="LineageOS" 
+         fetch="https://github.com/LineageOS" />
+
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="thirteen-v2" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="thirteen-radio-default" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+</manifest> 
