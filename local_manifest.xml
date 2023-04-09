@@ -3,17 +3,15 @@
 
  <!--Remote-->
  <remote name="m" 
-         fetch="https://github.com/mozzaru" />
+         fetch="https://github.com" />
 
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
  
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derpfest-13" />
-
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
-
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
+ <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="derp-13" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="m" revision="normal" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
