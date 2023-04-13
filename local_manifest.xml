@@ -2,16 +2,9 @@
 <manifest>
 
  <!--Remote-->
- <remote name="m" 
-         fetch="https://github.com" />
+ <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="github" revision="derp-13" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="github" revision="tigabelas" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="github" revision="normal" />
 
- <remote name="clang" 
-         fetch="https://gitlab.com/Amritorock" />
-
- 
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="derp-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="m" revision="normal" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 </manifest> 
