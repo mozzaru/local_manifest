@@ -8,7 +8,7 @@
 
  <!-- Proton -->
  <project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="github" revision="master" depth="1" />
- <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />-->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 </manifest> 
