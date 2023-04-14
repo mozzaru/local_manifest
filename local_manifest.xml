@@ -2,13 +2,20 @@
 <manifest>
 
  <!--Remote-->
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="github" revision="derp-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="github" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="github" revision="T" />
+ <remote name="hub" 
+         fetch="https://github.com" />
+
+ <remote name="lab" 
+         fetch="https://gitlab.com" />
+
+ <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="hub" revision="derp-13" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="hub" revision="tigabelas" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="hub" revision="T" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="lab" revision="master" clone-depth="1" />
 
  <!-- Proton -->
- <!--<project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="github" revision="master" depth="1" />-->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+ <!--<project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="hub" revision="master" depth="1" />-->
 </manifest> 
