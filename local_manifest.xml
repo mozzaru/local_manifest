@@ -10,7 +10,7 @@
 
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="hub" revision="derp-13" />
  <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="hub" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="hub" revision="normal" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="hub" revision="T" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
 
