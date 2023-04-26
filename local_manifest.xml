@@ -15,5 +15,5 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="n" revision="master" clone-depth="1" />
 
  <!-- Proton -->
- <project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="hub" revision="master" depth="1" />
+ <project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="m" revision="master" depth="1" />
 </manifest> 
