@@ -9,13 +9,11 @@
          fetch="https://gitlab.com" />
 
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="derp-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
+ <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="13" />
  <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="m" revision="normal" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="n" revision="master" clone-depth="1" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="n" revision="master" clone-depth="1" />
-
  <!-- Proton -->
- <!--<project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="hub" revision="master" depth="1" />-->
+ <project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="hub" revision="master" depth="1" />
 </manifest> 
