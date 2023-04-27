@@ -12,7 +12,7 @@
          fetch="https://gitlab.com/Amritorock" />
 
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derp-13" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="13" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="Tin" />
  <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="normal" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="n" revision="master" clone-depth="1" />
