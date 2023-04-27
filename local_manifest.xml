@@ -3,17 +3,20 @@
 
  <!--Remote-->
  <remote name="m" 
-         fetch="https://github.com" />
+         fetch="https://github.com/mozzaru" />
+
+ <remote name="k" 
+         fetch="https://github.com/kdrag0n" />
 
  <remote name="n" 
-         fetch="https://gitlab.com" />
+         fetch="https://gitlab.com/Amritorock" />
 
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="derp-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="m" revision="13" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="m" revision="normal" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derp-13" />
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="13" />
+ <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="normal" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="n" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="n" revision="master" clone-depth="1" />
 
  <!-- Proton -->
- <!--<project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="m" revision="master" depth="1" />-->
+ <project path="prebuilts/clang-standalone" name="proton-clang" remote="k" revision="master" depth="1" />
 </manifest> 
