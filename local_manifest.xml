@@ -11,6 +11,8 @@
  <remote name="n" 
          fetch="https://gitlab.com/Amritorock" />
 
+ <remove-project name="manifest" />
+ <project path="manifest" name="manifest" remote="m" revision="13" />
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derp-13" clone-depth="1" />
  <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="Tin" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="T" clone-depth="1" />
