@@ -20,5 +20,5 @@
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="n" revision="master" clone-depth="1" />-->
 
  <!--<Proton>-->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="k" revision="master" clone-depth="1" />
+<!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="k" revision="master" clone-depth="1" />-->
 </manifest> 
