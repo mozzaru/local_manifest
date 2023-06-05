@@ -10,12 +10,15 @@
 
  <remote name="n" 
          fetch="https://gitlab.com/Amritorock" />
-
+         
+ <remote name="s" 
+         fetch="https://github.com/SonicBSV" />
+         
  <remove-project name="manifest" />
  <project path="manifest" name="manifest" remote="m" revision="13-main" />
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="derp-13" clone-depth="1" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="Tin" clone-depth="1" />
- <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="normal" clone-depth="1" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" clone-depth="1" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="s" revision="T" clone-depth="1" />
 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="n" revision="master" clone-depth="1" />-->
 
