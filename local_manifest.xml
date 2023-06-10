@@ -2,10 +2,18 @@
 <manifest>
 
  <!--Remote-->
- 
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="github" revision="spark-13" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="github" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="github" revision="normal" />
+ <remote name="m" 
+         fetch="https://github.com/mozzaru" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+ <remote name="n" 
+         fetch="https://gitlab.com/Amritorock" />
+         
+ <remote name="s" 
+         fetch="https://github.com/SonicBSV" />
+         
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="sparkk-13" clone-depth="1" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" clone-depth="1" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="s" revision="T" clone-depth="1" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="n" revision="master" clone-depth="1" />
 </manifest> 
