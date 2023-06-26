@@ -13,16 +13,20 @@
 
  <remote name="PixelExperience" 
          fetch="https://github.com/PixelExperience" />
+         
+ <remote name="s" 
+         fetch="https://github.com/SonicBSV" />
+         
 
 
- <remove-project name="android_hardware_qcom_wlan" />
- <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PixelExperience" revision="thirteen" />
+ <!--<remove-project name="android_hardware_qcom_wlan" />
+ <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PixelExperience" revision="thirteen" />-->
 
- <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />
+ <!--<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="LineageOS" revision="lineage-20.0" />-->
  
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="octavii-13" />
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="m" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Tex" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="octavi-13" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="s" revision="T" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
