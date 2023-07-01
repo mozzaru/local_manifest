@@ -11,8 +11,11 @@
  <remote name="s" 
          fetch="https://github.com/SonicBSV" />
          
+ <remote name="lose" 
+         fetch="https://github.com" />
+         
  
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="m" revision="lineage-20.0" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lose" revision="lineage-20" />
  
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="m" revision="pixys-13" />
 
