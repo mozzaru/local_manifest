@@ -2,18 +2,7 @@
 <manifest>
 
  <!--Remote-->
- <!--<remote name="m" 
-         fetch="https://github.com/mozzaru" />
-
- <remote name="k" 
-         fetch="https://github.com/kdrag0n" />
-
- <remote name="n" 
-         fetch="https://gitlab.com/Amritorock" />
-         
- <!--<remote name="s" 
-         fetch="https://github.com/SonicBSV" />-->
-         
+        
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="github" revision="derp-13" clone-depth="1" />
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="github" revision="T" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw-4.9" remote="github" revision="T" clone-depth="1" />
@@ -21,7 +10,4 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
  
  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
- 
- <!--<Proton>-->
-<!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="k" revision="master" clone-depth="1" />-->
 </manifest> 
