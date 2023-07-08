@@ -9,8 +9,8 @@
 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />-->
  
- <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
+ <!--<project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />-->
  
  <!-- Cosmic clang -->
- <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />-->
+ <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 </manifest> 
