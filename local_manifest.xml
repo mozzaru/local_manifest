@@ -13,10 +13,8 @@
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="fire" revision="T" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="fire" revision="normal" clone-depth="1" />
  
+ <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="lose" revision="lineage-20.0-legacy-um" />
  <project path="device/qcom/sepolicy-legacy-um" name="mozzaru/android_device_qcom_sepolicy" remote="fire" revision="lineage-20.0-legacy-um" />
- 
- <remove-project name="Project-Awaken/android_manifest" />
- <project path="manifest" name="mozzaru/android_manifest" remote="fire" revision="triton" />
  
  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="ice" revision="13.0" clone-depth="1" />
 </manifest> 
