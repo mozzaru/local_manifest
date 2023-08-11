@@ -9,7 +9,7 @@
          
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="fire" revision="derp-test" clone-depth="1" />
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="fire" revision="T" clone-depth="1" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="fire" revision="normal" clone-depth="1" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="fire" revision="wip-t" clone-depth="1" />
  
  <!-- External -->
  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="fire" revision="13" />
