@@ -12,7 +12,7 @@
  <remove-project name="LineageOS/android_device_qcom_sepolicy" remote="lose" revision="lineage-20.0-legacy-um" />
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="fire" revision="lineage-20.0-legacy-um" />
         
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="fire" revision="awaken-13" clone-depth="1" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="fire" revision="awaken-13t" clone-depth="1" />
  <project path="vendor/xiaomi" name="android_vendor_xiaomi_markw" remote="fire" revision="13t" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="kernel_markw" remote="fire" revision="13" clone-depth="1" />
  
