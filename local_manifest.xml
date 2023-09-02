@@ -4,8 +4,12 @@
      <!--Remote-->
  <remote name="mola" 
          fetch="https://github.com" />
+         
  <remote name="mota" 
          fetch="https://gitlab.com" />
+         
+ <remote name="iusmac"
+         fetch="https://github.com/iusmac/" />
          
  <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="mola" revision="risingtechOSS-13" clone-depth="1" />
  <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="mola" revision="13t" clone-depth="1" />
@@ -14,10 +18,14 @@
  <!-- External -->
  <!--<project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="fire" revision="13" />-->
  
+ <!-- Packages -->
+ <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
+   
+ <!-- Cosmic clang -->
+ <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="mota" revision="master" clone-depth="1" />
+ 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="mota" revision="master" clone-depth="1" />-->
  
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="mota" revision="clang-r498229" clone-depth="1" />-->
  
- <!-- Cosmic clang -->
- <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="mota" revision="master" clone-depth="1" />
 </manifest> 
