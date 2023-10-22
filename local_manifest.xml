@@ -2,20 +2,24 @@
 <manifest>
 
  <!--Remote-->
- <remote name="hub" 
+ <remote name="m" 
          fetch="https://github.com" />
-
- <remote name="lab" 
+         
+ <remote name="ice" 
          fetch="https://gitlab.com" />
+         
+         
+ <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="m" revision="arrow-13.1" />
+ 
+ <project path="vendor/xiaomi" name="mozzaru/vendor_xiaomi_markw" remote="m" revision="13t" />
+ 
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="m" revision="13-new" />
 
- <project path="device/xiaomi/markw" name="mozzaru/android_device_xiaomi_markw" remote="hub" revision="arrow-13.1" />
- <project path="vendor/xiaomi" name="mozzaru/android_vendor_xiaomi_markw" remote="hub" revision="tigabelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="hub" revision="normal" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="lab" revision="master" clone-depth="1" />
-
- <!-- Proton -->
- <!--<project path="prebuilts/clang-standalone" name="kdrag0n/proton-clang" remote="hub" revision="master" depth="1" />-->
+ <!-- Packages -->
+ <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="m" revision="qcom" />
+ 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="ice" revision="master" clone-depth="1" />
+   
+ <!-- Clang-Aosp -->
+ <!--<project path="prebuilts/clang/host/linux-x86/clang-aosp" name="anandhan07/aosp-clang" remote="ice" revision="17" clone-depth="1" />-->
 </manifest> 
